@@ -32,8 +32,6 @@ def add_data(station):
     return result
 
 
-
-
 @app.route("/api/v1/yearly/<station>/<year>")
 def yearly(station,year):
 
